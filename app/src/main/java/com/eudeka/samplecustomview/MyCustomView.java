@@ -61,7 +61,6 @@ public class MyCustomView extends View {
         mRect.right = getWidth();
         mRect.top = 0;
         mRect.bottom = getHeight();
-
         canvas.drawRect(mRect, mPaint);
     }
 
