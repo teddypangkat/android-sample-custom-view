@@ -1,4 +1,4 @@
-package com.eudeka.samplecustomview;
+package id.eudeka.samplecustomview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.util.AttributeSet;
+
+import com.eudeka.samplecustomview.R;
 
 public class MyCustomView extends View {
 

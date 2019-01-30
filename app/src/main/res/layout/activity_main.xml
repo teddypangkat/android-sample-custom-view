@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <com.eudeka.samplecustomview.MyCustomView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        app:square_color="#b50346"
-        />
+    <id.eudeka.samplecustomview.MyCustomViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:separatorWidth="2dp"
+        app:numColumns="2">
 
-</android.support.constraint.ConstraintLayout>
+        <include layout="@layout/box_small" />
+
+        <include layout="@layout/box_small" />
+
+        <include layout="@layout/box_small" />
+
+        <include layout="@layout/box_small" />
+
+    </id.eudeka.samplecustomview.MyCustomViewGroup>
+
+</FrameLayout>
