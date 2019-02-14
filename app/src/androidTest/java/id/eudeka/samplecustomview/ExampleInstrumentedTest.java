@@ -1,4 +1,4 @@
-package com.eudeka.samplecustomview;
+package id.eudeka.samplecustomview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

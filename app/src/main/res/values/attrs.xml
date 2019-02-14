@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <declare-styleable name="MyCustomView">
-        <attr name="square_color" format="color"/>
+        <attr name="square_color" format="color" />
     </declare-styleable>
 
 
-
-    <declare-styleable name="BoxGridLayout">
-        <attr name="separatorWidth" format="dimension" />
-        <attr name="separatorColor" format="color" />
-        <attr name="numColumns" format="integer" />
+    <declare-styleable name="BeautyView">
+        <attr name="foto" format="reference" />
+        <attr name="nama" format="string" />
     </declare-styleable>
+
 </resources>

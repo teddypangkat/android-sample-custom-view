@@ -1,4 +1,4 @@
-package com.eudeka.samplecustomview;
+package id.eudeka.samplecustomview;
 
 import org.junit.Test;
 

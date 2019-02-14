@@ -12,7 +12,7 @@ import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.util.AttributeSet;
 
-import com.eudeka.samplecustomview.R;
+import id.eudeka.samplecustomview.R;
 
 public class MyCustomView extends View {
 
